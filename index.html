@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>freeCodeCamp - Random Quote Machine</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- My Custom -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container custom-container">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <h1>Get your quotes!</h1>
+      <div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <i class="fa fa-quote-left fa-3x fa-pull-left fa-border [ accent-color ]" aria-hidden="true"></i>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="message quote-text">
+                <span id="text"></span>
+                <br><span id="author"></span>
+              </div>
+            </div>
+            
+          </div>
+
+        <div class="row text-center">
+          <div class="col-sm-6">
+              <button id="shareQuote" class="btn [ accent-color--bg ]"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></i>
+       </button>
+            </div>
+          <div class="col-sm-6">
+              <button id="getQuotes" class="btn [ accent-color--bg ]">New quote
+       </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-quote-right fa-3x fa-pull-right fa-border [ accent-color ]" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/custom.js"></script>
+  </body>
+</html>

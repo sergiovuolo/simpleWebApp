@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.custom-container {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
+}
+
+.accent-color {
+  color: #16B6DF;
+}
+
+.accent-color--bg {
+  background-color: #ffffff;
+  color: #000000;
+  border: 5px solid #16B6DF;
+}
+

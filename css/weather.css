@@ -1,0 +1,23 @@
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: #0277BD;
+	color: #ffffff;
+}
+
+a {
+	color: yellow;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* .custom-container {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  padding:50px 50px;
+  display:table;
+  
+} */
